@@ -1,16 +1,50 @@
-# React + Vite
+# React BBC News Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A BBC News-inspired news reader built with React, Redux Toolkit, and the Newsdata.io API. Browse top headlines by country, search for specific topics, and read full articles.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Live news feed via Newsdata.io API
+- Country filter (USA, Germany, Pakistan, India, Canada)
+- Keyword search
+- Featured article layout with sidebar headlines
+- Article detail page with external link
+- 404 page handling
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19 + Vite
+- Redux Toolkit (createAsyncThunk)
+- React Router
+- Axios
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install dependencies:
+```bash
+   npm install
+```
+2. Create a `.env` file in the project root:
+
+VITE_BASE_URL=https://newsdata.io/api/1/latest?
+VITE_API_KEY=your_api_key
+
+3. Get your free API key at [newsdata.io](https://newsdata.io/)
+4. Start the dev server:
+```bash
+   npm run dev
+```
+
+## Folder Structure
+
+src/
+├── App.jsx
+├── main.jsx
+├── app/
+│ └── store.js
+├── features/
+│ └── newsSlice.js
+└── pages/
+├── Home.jsx
+└── NewsPage.jsx
