@@ -22,29 +22,31 @@ A BBC News-inspired news reader built with React, Redux Toolkit, and the Newsdat
 ## Setup
 
 1. Install dependencies:
-```bash
+   ```bash
    npm install
-```
+   ```
 2. Create a `.env` file in the project root:
-
-VITE_BASE_URL=https://newsdata.io/api/1/latest?
-VITE_API_KEY=your_api_key
-
+   ```
+   VITE_BASE_URL=https://newsdata.io/api/1/latest?
+   VITE_API_KEY=your_api_key
+   ```
 3. Get your free API key at [newsdata.io](https://newsdata.io/)
 4. Start the dev server:
-```bash
+   ```bash
    npm run dev
-```
+   ```
 
 ## Folder Structure
 
+```
 src/
 ├── App.jsx
 ├── main.jsx
 ├── app/
-│ └── store.js
+│   └── store.js
 ├── features/
-│ └── newsSlice.js
+│   └── newsSlice.js
 └── pages/
-├── Home.jsx
-└── NewsPage.jsx
+    ├── Home.jsx
+    └── NewsPage.jsx
+```
