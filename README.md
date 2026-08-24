@@ -1,4 +1,4 @@
-# react-projects# React Projects
+# React Projects
 
 A collection of React projects showcasing different APIs, state management patterns, and UI concepts. Each project lives in its own folder with an independent setup, tech stack, and README.
 
