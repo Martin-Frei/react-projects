@@ -1,5 +1,11 @@
 # React Projects
 
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=white)
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?logo=redux&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A collection of React projects showcasing different APIs, state management patterns, and UI concepts. Each project lives in its own folder with an independent setup, tech stack, and README.
 
 ## Projects
@@ -48,4 +54,4 @@ Other standalone React repositories:
 
 ## License
 
-MIT
+This collection is open source and available under the [MIT License](LICENSE).
