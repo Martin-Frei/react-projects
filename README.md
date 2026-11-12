@@ -13,7 +13,7 @@ A collection of React projects showcasing different APIs, state management patte
 | Project | Description | Tech Highlights |
 |---|---|---|
 | [react-adzuna](./react-adzuna) | Job search app using the Adzuna API | React, Vite, Tailwind, Fetch API |
-| [react-bbc-clone](./react-bbc-clone) | BBC News reader with Newsdata.io API | React, Redux Toolkit, React Router, Axios, Tailwind |
+| [react-bbc-clone](./react-bbc-clone) | BBC News reader with GNews API | React, Redux Toolkit, React Router, Axios, Tailwind |
 | [react-youtube-clone](./react-youtube-clone) | YouTube clone with search, embedded player, and playlist feature | React, Redux Toolkit, React Router, Axios, Tailwind |
 | [react-expense-tracker](./react-expense-tracker) | Income and expense tracker with localStorage persistence | React, Vite, Tailwind |
 | [react-fetch-vs-axios](./react-fetch-vs-axios) | Side-by-side comparison of Fetch API vs Axios with full CRUD | React, Vite, Axios, Tailwind |
