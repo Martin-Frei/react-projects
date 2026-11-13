@@ -1,5 +1,11 @@
 # React Projects
 
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=white)
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?logo=redux&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A collection of React projects showcasing different APIs, state management patterns, and UI concepts. Each project lives in its own folder with an independent setup, tech stack, and README.
 
 ## Projects
@@ -7,7 +13,7 @@ A collection of React projects showcasing different APIs, state management patte
 | Project | Description | Tech Highlights |
 |---|---|---|
 | [react-adzuna](./react-adzuna) | Job search app using the Adzuna API | React, Vite, Tailwind, Fetch API |
-| [react-bbc-clone](./react-bbc-clone) | BBC News reader with Newsdata.io API | React, Redux Toolkit, React Router, Axios, Tailwind |
+| [react-bbc-clone](./react-bbc-clone) | BBC News reader with GNews API | React, Redux Toolkit, React Router, Axios, Tailwind |
 | [react-youtube-clone](./react-youtube-clone) | YouTube clone with search, embedded player, and playlist feature | React, Redux Toolkit, React Router, Axios, Tailwind |
 | [react-expense-tracker](./react-expense-tracker) | Income and expense tracker with localStorage persistence | React, Vite, Tailwind |
 | [react-fetch-vs-axios](./react-fetch-vs-axios) | Side-by-side comparison of Fetch API vs Axios with full CRUD | React, Vite, Axios, Tailwind |
@@ -48,4 +54,4 @@ Other standalone React repositories:
 
 ## License
 
-MIT
+This collection is open source and available under the [MIT License](LICENSE).

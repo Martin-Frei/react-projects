@@ -22,7 +22,7 @@ A React job search application powered by the [Adzuna API](https://developer.adz
 ```bash
    npm install
 ```
-3. Create a `.env` file in the project root:
+3. Create a `.env` file in the project root (or copy `.env.example`):
 
 VITE_ADZUNA_APP_ID=your_app_id
 VITE_ADZUNA_APP_KEY=your_app_key

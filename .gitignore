@@ -1,0 +1,17 @@
+# Dependencies / build output
+node_modules/
+dist/
+
+# Environment variables (use .env.example as template)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

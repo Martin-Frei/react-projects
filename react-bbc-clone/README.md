@@ -1,10 +1,10 @@
 # React BBC News Clone
 
-A BBC News-inspired news reader built with React, Redux Toolkit, and the Newsdata.io API. Browse top headlines by country, search for specific topics, and read full articles.
+A BBC News-inspired news reader built with React, Redux Toolkit, and the GNews API. Browse top headlines by country, search for specific topics, and read full articles.
 
 ## Features
 
-- Live news feed via Newsdata.io API
+- Live news feed via GNews API
 - Country filter (USA, Germany, Pakistan, India, Canada)
 - Keyword search
 - Featured article layout with sidebar headlines
@@ -25,12 +25,12 @@ A BBC News-inspired news reader built with React, Redux Toolkit, and the Newsdat
    ```bash
    npm install
    ```
-2. Create a `.env` file in the project root:
+2. Create a `.env` file in the project root (or copy `.env.example`):
    ```
-   VITE_BASE_URL=https://newsdata.io/api/1/latest?
+   VITE_BASE_URL=https://gnews.io/api/v4
    VITE_API_KEY=your_api_key
    ```
-3. Get your free API key at [newsdata.io](https://newsdata.io/)
+3. Get your free API key at [gnews.io](https://gnews.io/)
 4. Start the dev server:
    ```bash
    npm run dev
